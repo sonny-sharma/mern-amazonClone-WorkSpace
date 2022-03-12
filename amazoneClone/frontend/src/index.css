@@ -26,6 +26,17 @@ header a{
 main{
   flex:1;
 }
+.btn-primary{
+  background-color: #ffc000;
+  color:black;
+  border: none !important;
+}
+
+
+
+.rating span{
+  color:#ffc000;
+}
 .products{
   display: flex;
   flex-wrap: wrap;
@@ -46,4 +57,8 @@ main{
 
 .product-info{
   padding: 1rem;
+}
+.img-large{
+  max-width: 50%;
+
 }
